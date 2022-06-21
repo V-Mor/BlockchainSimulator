@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{67692a18-9d79-4ee6-a532-1e178f0ebfd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network">
+      <UniqueIdentifier>{7508616c-bd02-45e0-b3ce-5f4d9e34cf5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StdAfx">
+      <UniqueIdentifier>{889fe803-2598-4692-9320-7686d55369d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="node">
+      <UniqueIdentifier>{c11c1594-ecc5-49b4-a494-b4e2acccb5a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="blockchain">
+      <UniqueIdentifier>{d351f2e3-1d39-49db-b35d-0d8a2350f531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cryptogrpaphy">
+      <UniqueIdentifier>{258a44aa-6879-4c85-9af1-9014d1dff89c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{72d1f7f1-0e75-4098-a0fb-aa2b9250853e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PBFT">
+      <UniqueIdentifier>{831ae0c1-d5f3-45d5-99b3-8fab84db6a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{142aca67-bd37-4912-bf9a-90776d2b52e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SBFT">
+      <UniqueIdentifier>{31f4be0d-444a-4429-965e-d6ebebd9e22a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logs">
+      <UniqueIdentifier>{845e37b0-c8ce-44f2-ac2a-bc75a709d817}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkManager.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>StdAfx</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>node</Filter>
+    </ClCompile>
+    <ClCompile Include="sha256.cpp">
+      <Filter>cryptogrpaphy</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>blockchain</Filter>
+    </ClCompile>
+    <ClCompile Include="Blockchain.cpp">
+      <Filter>blockchain</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeFactory.cpp">
+      <Filter>node</Filter>
+    </ClCompile>
+    <ClCompile Include="ECDSASignatureManager.cpp">
+      <Filter>cryptogrpaphy</Filter>
+    </ClCompile>
+    <ClCompile Include="PBFTDataPackage.cpp">
+      <Filter>PBFT</Filter>
+    </ClCompile>
+    <ClCompile Include="PBFTNode.cpp">
+      <Filter>PBFT</Filter>
+    </ClCompile>
+    <ClCompile Include="PBFTNodeFactory.cpp">
+      <Filter>PBFT</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeLogger.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkManager1.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="MerkleTree.cpp">
+      <Filter>cryptogrpaphy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NetworkManager.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>node</Filter>
+    </ClInclude>
+    <ClInclude Include="sha256.h">
+      <Filter>cryptogrpaphy</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>blockchain</Filter>
+    </ClInclude>
+    <ClInclude Include="Blockchain.h">
+      <Filter>blockchain</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeFactory.h">
+      <Filter>node</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitalSignatureManager.h">
+      <Filter>cryptogrpaphy</Filter>
+    </ClInclude>
+    <ClInclude Include="ECDSASignatureManager.h">
+      <Filter>cryptogrpaphy</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPackage.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleDataPackage.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="PBFTDataPackage.h">
+      <Filter>PBFT</Filter>
+    </ClInclude>
+    <ClInclude Include="PBFTNode.h">
+      <Filter>PBFT</Filter>
+    </ClInclude>
+    <ClInclude Include="PBFTNodeFactory.h">
+      <Filter>PBFT</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeLogger.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkManager1.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="MerkleTree.h">
+      <Filter>cryptogrpaphy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

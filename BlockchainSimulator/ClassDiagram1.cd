@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NetworkManager">
+    <Position X="9.25" Y="0.5" Width="1.75" />
+    <NestedTypes>
+      <Typedef Name="NetworkManager::Ptr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>NetworkManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAEAABAAAAAAACAAAAAAAAAAAAgAAAAAgAAAY=</HashCode>
+      <FileName>NetworkManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Node">
+    <Position X="1" Y="1.75" Width="2.25" />
+    <NestedTypes>
+      <Typedef Name="Node::Ptr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Node.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAABAQAACQAAAAEgAAAOAAAAIACCQIIAQAAAEAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SHA256">
+    <Position X="5.25" Y="0.5" Width="2" />
+    <NestedTypes>
+      <Typedef Name="SHA256::uint8" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>sha256.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="SHA256::uint32" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>sha256.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="SHA256::uint64" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>sha256.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAQASBAAAAAAAAQAAAAAAAQAgEQAIAAAAAAAAEAAA=</HashCode>
+      <FileName>sha256.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Block">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgEAAABAAEAAAAQAYAAIAAAAAgAAAACAAAAQAAAAAA=</HashCode>
+      <FileName>Block.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Blockchain">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAgAAAAAAAAEAAAAAAAAABAAgQ=</HashCode>
+      <FileName>Blockchain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkManager1">
+    <Position X="8.5" Y="3.75" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="NetworkManager1::Ptr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>NetworkManager1.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="NetworkManager1::WaitingQueue" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>NetworkManager1.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAGAABAAAAAABCAAAAAAAAAAAAAAAACAAAQAA=</HashCode>
+      <FileName>NetworkManager1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NodeFactory" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASABAAAAAAAAAAABAACBAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>NodeFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalSignatureManager" Collapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAARAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DigitalSignatureManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ECDSASignatureManager" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAISAQAAAARAAAAAAABAAAAAAIAAAAAAABAAAAAA=</HashCode>
+      <FileName>ECDSASignatureManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MerkleTree" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABACAAAAAAAAAAAAAAAAAAAAgEAAAAAAABAAAQAAE=</HashCode>
+      <FileName>MerkleTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PBFTNode" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAARAAAAEgAIAMAAAAAACAAAICAAAAAIAIA=</HashCode>
+      <FileName>PBFTNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PBFTNodeFactory" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>PBFTNodeFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NodeLogger" Collapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQEAAQAAAAAIEAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NodeLogger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="DataPackage" Collapsed="true">
+    <Position X="11.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAQgEAAAAAAAAAAAAAAEAAIAA=</HashCode>
+      <FileName>DataPackage.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SimpleDataPackage" Collapsed="true">
+    <Position X="10.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICA=</HashCode>
+      <FileName>SimpleDataPackage.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PBFTDataPackage" Collapsed="true">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAADAAAAAAAABAAAAAAEAgBAAAAAAAAAEAAICA=</HashCode>
+      <FileName>PBFTDataPackage.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="ByteVector" Collapsed="true">
+    <Position X="12.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StdAfx.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
